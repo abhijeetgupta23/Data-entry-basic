@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context="com.example.android.sample3.Enter_details"
+    android:orientation="vertical">
+    <com.rengwuxian.materialedittext.MaterialEditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:layout_margin="40dp"
+        android:id="@+id/name"
+
+    />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+
+        android:theme="@style/ThemeSpinner"
+        android:spinnerMode="dialog"
+
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/primary_color"
+        android:layout_marginTop="25dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/webloom"
+        android:padding="55sp"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sample3.AppDevelopmentFragment">
+
+    <ScrollView
+        android:layout_height="454dp"
+        android:layout_width="match_parent"
+
+        android:id="@+id/app_dev"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
